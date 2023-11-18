@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/tw-elements-react/dist/js/**/*.js"
-],
+    "./node_modules/tw-elements-react/dist/js/**/*.js",
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -14,10 +15,7 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("tw-elements-react/dist/plugin.cjs"),
-    require("daisyui"),
-  ],
+  plugins: [require("tw-elements-react/dist/plugin.cjs"), require("daisyui")],
   daisyui: {
     themes: ["light", "dark", "corporate"],
   },

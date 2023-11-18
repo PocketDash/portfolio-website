@@ -4,16 +4,6 @@ import InfoSection from "./common/InfoSection";
 const Projects = ({ id }) => {
   const infos = [
     {
-      title: "Personal portfolio webpage",
-      company: {
-        name: "Figma Link",
-        link: "",
-      },
-      description: [
-        "Designing portfolio webpage to show projects and courses.",
-      ],
-    },
-    {
       title: "Sofa Store App",
       company: {
         name: "Figma Link",
@@ -29,22 +19,33 @@ const Projects = ({ id }) => {
       title: "Redesign Basalam Product page",
       company: {
         name: "Figma Link",
-        link: "",
+        link: "https://www.figma.com/community/file/1307653543022000009",
       },
       description: [
         "Reduce extra space",
         "Redesign action buttons and rating style",
         "A/B testing",
       ],
-    },    {
+    },
+    {
       title: "Mobile Health App",
       company: {
         name: "Figma Link",
-        link: "",
+        link: "https://www.figma.com/community/file/1307675013673856935/weight-tracker",
       },
       description: [
         "Design health mobile application based on video",
         "Build with Prototype",
+      ],
+    },
+    {
+      title: "Personal portfolio webpage",
+      company: {
+        name: "Figma Link",
+        link: "https://www.figma.com/community/file/1307349460557480441",
+      },
+      description: [
+        "Designing portfolio webpage to show projects and courses.",
       ],
     },
   ];
